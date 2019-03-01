@@ -1,0 +1,40 @@
+
+
+/* notification */
+
+.notification.success{
+    background: #effeb9 url(images/notification/success.png) no-repeat 10px 10px;
+    border-color: #98c700; 
+}
+
+.notification.error{
+    background: #fccac3 url(images/notification/error.png) no-repeat 10px 10px;
+    
+    border-color: #ea5338; 
+}
+
+.notification.info{
+    background: #d1e4f3 url('../images/notification/info.png') no-repeat 10px 10px;
+
+    border-color: #4d8fcc; 
+}
+
+.notification.tip{
+    background: #feeac9 url('images/notification/tip.png') no-repeat 10px 10px;
+    border-color: #d38e49; 
+}
+
+.notification{
+    border-width:1px;
+    border-style:solid;
+    padding: 17px 17px 17px 55px;
+    margin-bottom:15px;
+    -moz-border-radius:3px;
+    -webkit-border:3px;
+    border-radius:3px;
+}
+
+.notification.close{
+    background:  url(images/notification/close.png) no-repeat scroll 0 0 transparent;
+    border-color: #d38e49; 
+}

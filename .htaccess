@@ -1,0 +1,18 @@
+RewriteEngine on
+
+RewriteRule ^personal?$ personal.php
+RewriteRule ^contact?$ contact.php
+RewriteRule ^registered?$ registered.php
+RewriteRule ^personal?$ personal.php
+RewriteRule ^index?$ index.php
+RewriteRule ^contact?$ contact.php
+RewriteRule ^experience?$ experience.php 
+
+
+
+
+
+
+RewriteRule ^manageU/([0-9a-zA-Z]+) manageU.php?email2=$1
+
+# RewriteRule ^manageU/([^0-9a-zA-Z/\.]+)?$ /manageU.php?email2=$1[L]
